@@ -76,3 +76,7 @@ DerivedDataCache/*
 
 # Dumpin
 _ImportedFiles/*
+
+# RiderLink
+Plugins/Developer/RiderLink/Intermediate/
+Plugins/Developer/RiderLink/Binaries/
