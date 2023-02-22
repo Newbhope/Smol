@@ -80,3 +80,4 @@ _ImportedFiles/*
 # RiderLink
 Plugins/Developer/RiderLink/*
 Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini
+.vsconfig
