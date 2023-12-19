@@ -14,5 +14,6 @@ class SMOL_API USmolInstanceSubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
 
+	// I don't think this is used lmao
 	FString ConvertDistanceToString(float Distance);
 };
