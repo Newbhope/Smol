@@ -38,7 +38,7 @@ protected:
 
 	// In seconds, how long until the game over sequence is ran
 	UPROPERTY(BlueprintReadWrite, Category="GameTimer")
-	float TotalGameDuration = 60;
+	float TotalGameDuration;
 
 	UPROPERTY(BlueprintReadWrite, Category="GameTimer")
 	float RemainingGameDuration = 0;
