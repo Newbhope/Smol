@@ -42,4 +42,12 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite, Category="GameTimer")
 	float RemainingGameDuration = 0;
+
+	// Test vars
+
+	/**
+	 * Skips playing the intro sequence if set to false
+	 */
+	UPROPERTY(BlueprintReadWrite, Category="Test")
+	bool bPlayIntroSequence = true;
 };
