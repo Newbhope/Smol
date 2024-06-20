@@ -10,18 +10,22 @@
 	"Version": 
 	{
 		"MajorVersion": 5,
-		"MinorVersion": 3,
+		"MinorVersion": 4,
 		"PatchVersion": 2,
-		"Changelist": 29314046,
-		"CompatibleChangelist": 27405482,
+		"Changelist": 33871570,
+		"CompatibleChangelist": 33043543,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
-		"BranchName": "++UE5+Release-5.3",
-		"BuildId": "27405482"
+		"BranchName": "++UE5+Release-5.4",
+		"BuildId": "33043543"
 	},
 	"BuildProducts": [
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/D3D12/D3D12Core.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/D3D12/d3d12SDKLayers.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -52,6 +56,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/D3D12/D3D12Core.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/D3D12/d3d12SDKLayers.dll",
 			"Type": "NonUFS"
 		},
 		{
@@ -100,6 +108,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Renderer/TessellationTable.bin",
 			"Type": "NonUFS"
 		},
 		{
@@ -1779,6 +1791,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Calendar.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Console.svg",
 			"Type": "UFS"
 		},
@@ -1860,6 +1876,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Monitor.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Normalize.png",
 			"Type": "UFS"
 		},
 		{
@@ -2163,6 +2183,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/folder-virtual-closed.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/folder-virtual-open.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/help.svg",
 			"Type": "UFS"
 		},
@@ -2284,6 +2312,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/x-circle.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/CoreWidgets/CheckBox/CheckBoxIndeterminate_12.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/CoreWidgets/CheckBox/CheckBoxIndeterminate_14.svg",
 			"Type": "UFS"
 		},
 		{
@@ -2639,11 +2675,27 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Added.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_BranchModifiedBadge.svg",
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_CheckCircleLine.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_CheckIn.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_CheckInAvailable.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_CheckInAvailableRewound.svg",
 			"Type": "UFS"
 		},
 		{
@@ -2663,7 +2715,19 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_ConflictResolution_Clear.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_ConflictResolution_OpenExternal.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Conflicted.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_ConflictedState.svg",
 			"Type": "UFS"
 		},
 		{
@@ -2671,7 +2735,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_DiskSize.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_File.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_LineCircle.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_MarkedForAdd.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Modified.svg",
 			"Type": "UFS"
 		},
 		{
@@ -2680,6 +2760,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_NewerVersion.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Promote.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Promote_Large.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Removed.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Rewind.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_Rewound.svg",
 			"Type": "UFS"
 		},
 		{
@@ -2704,6 +2804,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_SyncAndCheckOut.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_VerticalLine.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_VerticalLineDashed.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_VerticalLineStart.svg",
 			"Type": "UFS"
 		},
 		{
@@ -2855,6 +2967,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/ControlRigModules/ControlRigModules.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/ControlRigSpline/ControlRigSpline.uplugin",
 			"Type": "UFS"
 		},
@@ -2876,6 +2992,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Cameras/GameplayCameras/GameplayCameras.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosCloth/ChaosCloth.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosVD/ChaosVD.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2931,6 +3055,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Editor/ProxyLODPlugin/ProxyLODPlugin.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Editor/SequencerAnimTools/SequencerAnimTools.uplugin",
 			"Type": "UFS"
 		},
@@ -2972,14 +3100,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ChaosCaching/ChaosCaching.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/ChaosClothEditor/ChaosClothEditor.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/ChaosCloth/ChaosCloth.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3027,6 +3147,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/MeshModelingToolsetExp.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanProjectUtilities/MetaHumanProjectUtilities.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/PlanarCutPlugin/PlanarCut.uplugin",
 			"Type": "UFS"
 		},
@@ -3056,6 +3184,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/Water/Water.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/NiagaraSimCaching/NiagaraSimCaching.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3207,6 +3339,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MeshModelingToolset/MeshModelingToolset.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Metasound/Metasound.uplugin",
 			"Type": "UFS"
 		},
@@ -3263,6 +3399,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/Windows/XInputDevice/XInputDevice.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Tests/InterchangeTests/InterchangeTests.uplugin",
 			"Type": "UFS"
 		},
@@ -3273,7 +3413,171 @@
 		{
 			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Takes.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/WorldMetrics/WorldMetrics.uplugin",
+			"Type": "UFS"
 		}
+	],
+	"BuildPlugins": [
+		"ACLPlugin",
+		"AISupport",
+		"ActorLayerUtilities",
+		"ActorSequence",
+		"AlembicImporter",
+		"AndroidDeviceProfileSelector",
+		"AnimationData",
+		"AnimationModifierLibrary",
+		"AnimationSharing",
+		"AssetManagerEditor",
+		"AssetTags",
+		"AudioCapture",
+		"AudioSynesthesia",
+		"AudioWidgets",
+		"AutoSizeComments",
+		"AutomationUtils",
+		"AvfMedia",
+		"BackChannel",
+		"BlendSpaceMotionAnalysis",
+		"BlueprintAssist",
+		"BlueprintHeaderView",
+		"BlueprintMaterialTextureNodes",
+		"Bridge",
+		"CameraShakePreviewer",
+		"ChangelistReview",
+		"ChaosCaching",
+		"ChaosCloth",
+		"ChaosEditor",
+		"ChaosNiagara",
+		"ChaosSolverPlugin",
+		"ChaosUserDataPT",
+		"ChaosVD",
+		"CharacterAI",
+		"ChunkDownloader",
+		"CmdLinkServer",
+		"CodeLiteSourceCodeAccess",
+		"CommonUI",
+		"ContentBrowserAssetDataSource",
+		"ContentBrowserClassDataSource",
+		"ControlRig",
+		"ControlRigModules",
+		"ControlRigSpline",
+		"CryptoKeys",
+		"CurveEditorTools",
+		"CustomMeshComponent",
+		"DataValidation",
+		"Dataflow",
+		"DatasmithContent",
+		"DumpGPUServices",
+		"EditorDebugTools",
+		"EditorScriptingUtilities",
+		"EngineAssetDefinitions",
+		"EnhancedInput",
+		"EnvironmentQueryEditor",
+		"ExampleDeviceProfileSelector",
+		"FacialAnimation",
+		"FastBuildController",
+		"Fracture",
+		"FullBodyIK",
+		"GLTFExporter",
+		"GameplayCameras",
+		"GameplayTagsEditor",
+		"GeometryCache",
+		"GeometryCollectionPlugin",
+		"GeometryMode",
+		"GeometryProcessing",
+		"GitSourceControl",
+		"IKRig",
+		"ImgMedia",
+		"InputDebugging",
+		"Interchange",
+		"InterchangeEditor",
+		"InterchangeTests",
+		"Landmass",
+		"LauncherChunkInstaller",
+		"LevelSequenceEditor",
+		"LightMixer",
+		"LinuxDeviceProfileSelector",
+		"LocalizableMessage",
+		"LocationServicesBPLibrary",
+		"MacGraphicsSwitching",
+		"MaterialAnalyzer",
+		"MediaCompositing",
+		"MediaPlate",
+		"MediaPlayerEditor",
+		"MeshModelingToolset",
+		"MeshModelingToolsetExp",
+		"MeshPainting",
+		"MetaHumanProjectUtilities",
+		"Metasound",
+		"MobileLauncherProfileWizard",
+		"MobilePatchingUtils",
+		"MsQuic",
+		"N10XSourceCodeAccess",
+		"Niagara",
+		"NiagaraSimCaching",
+		"NullSourceCodeAccess",
+		"ObjectMixer",
+		"OnlineBase",
+		"OnlineServices",
+		"OnlineSubsystem",
+		"OnlineSubsystemNull",
+		"OnlineSubsystemUtils",
+		"OodleNetwork",
+		"Paper2D",
+		"PerforceSourceControl",
+		"PixWinPlugin",
+		"PlanarCut",
+		"PlatformCrypto",
+		"PluginBrowser",
+		"PluginUtils",
+		"PortableObjectFileDataSource",
+		"ProceduralMeshComponent",
+		"PropertyAccessEditor",
+		"PropertyAccessNode",
+		"ProxyLODPlugin",
+		"PythonScriptPlugin",
+		"RawInput",
+		"RenderDocPlugin",
+		"RenderGraphInsights",
+		"ResonanceAudio",
+		"RiderSourceCodeAccess",
+		"RigVM",
+		"SequencerAnimTools",
+		"SequencerScripting",
+		"SignificanceManager",
+		"SkeletalReduction",
+		"SoundFields",
+		"SpeedTreeImporter",
+		"StructUtils",
+		"StudioTelemetry",
+		"Synthesis",
+		"Takes",
+		"TcpMessaging",
+		"TemplateSequence",
+		"TextureFormatOodle",
+		"ToolPresets",
+		"TraceDataFilters",
+		"TraceUtilities",
+		"UObjectPlugin",
+		"UVEditor",
+		"UdpMessaging",
+		"VariantManager",
+		"VariantManagerContent",
+		"VisualStudioCodeSourceCodeAccess",
+		"VisualStudioSourceCodeAccess",
+		"Water",
+		"WaterExtras",
+		"WaveTable",
+		"WebMMedia",
+		"WebMMoviePlayer",
+		"WindowsDeviceProfileSelector",
+		"WindowsMoviePlayer",
+		"WmfMedia",
+		"WorldMetrics",
+		"WorldPartitionHLODUtilities",
+		"XGEController",
+		"XInputDevice"
 	],
 	"AdditionalProperties": [
 		{
