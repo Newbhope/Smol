@@ -74,10 +74,13 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Dumpin
+# For dumping assets I already imported
 _ImportedFiles/*
 
 # RiderLink
 Plugins/Developer/RiderLink/*
 Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini
 .vsconfig
+
+# Other stuff I don't want
+*.uproject
