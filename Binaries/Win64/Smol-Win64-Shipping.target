@@ -3223,7 +3223,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/BlueprintAssist/BlueprintAssist.uplugin",
+			"Path": "$(EngineDir)/Plugins/Marketplace/BlueprintAssist_5.4/BlueprintAssist.uplugin",
 			"Type": "UFS"
 		},
 		{
