@@ -8,7 +8,14 @@ public class Smol : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "CommonUI", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"CoreUObject", 
+			"Engine", 
+			"InputCore", 
+			"CommonUI", 
+			"EnhancedInput" 
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
