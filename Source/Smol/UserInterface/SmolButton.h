@@ -9,7 +9,7 @@
  * 
  */
 UCLASS()
-class SMOL_API USmolButton : public UCommonButtonBase
+class SMOL_API USmolButton : public UObject
 //UCommonButtonBase
 {
 	GENERATED_BODY()
